@@ -21,22 +21,21 @@ API Link : https://kr.vuejs.org/v2/api/#vm-data
 * * *
 
 현재 개발에서는 vue cli 를 통해 프로젝트를 생성하고 있음!
-## 1. (Vue CLI로) Vue 프로젝트 생성하기
+## (Vue CLI로) Vue 프로젝트 생성하기
 * https://kr.vuejs.org/v2/guide/installation.html#NPM
-
-**Node version manager** 를 이용하여 다운받는 것을 ㅊㅊ
-* node.js 다운로드
+* node.js 다운로드(**Node version manager** 를 이용하여 다운받는 것을 ㅊㅊ)
     * OSX : https://github.com/nvm-sh/nvm
       * `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash`
     * windows : https://github.com/coreybutler/nvm-windows/releases
       * `nvm-setup.zip` 파일 추천
 
-cf) npm(node package manager) ? Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 (java의 maven 과 유사한 소프트웨어)
+cf) npm(node package manager) ? Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 (java의 maven과 유사한 소프트웨어)
 * https://cli.vuejs.org/
 
 
-## Intro
-Vue instance 를 Dom instance의 심장이라고 표현. 
-Dom instnace에 심장(Vue instance)이 연결(pluged in) 되어 있고 심장에서 변경된 데이터는 Dom에 reactive하게 반영됨
-
-아주 간단한 예제 실습(특정 Dom instance와 연결된 Vue instance를 생성하고 데이터 변경에 reative 한 Dom instance 보기)
+## 간단한 동작 확인
+* https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/
+  * Vue instance 를 Dom instance의 심장이라고 표현
+  * 심장(Vue instance)에서의 변화가 reactive하게 Dom instnace에 반영됨
+    * 특정 el(Dom element)에 연결된(pluged in) Vue instance를 생성
+    * Vue instance의 데이터 값이 변경되면 Dom instnace에도 reative하게 반영됨
