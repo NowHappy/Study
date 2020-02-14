@@ -13,7 +13,9 @@ Vue.js is a progressive, incrementally-adoptable JavaScript framework for buildi
 * github URL : https://github.com/vuejs/vue
 
 Home Link : https://kr.vuejs.org/index.html
+
 Guide Link : https://kr.vuejs.org/v2/guide/
+
 API Link : https://kr.vuejs.org/v2/api/#vm-data
 
 * * *
