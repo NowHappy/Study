@@ -31,7 +31,7 @@ API Link : https://kr.vuejs.org/v2/api/#vm-data
     * windows : https://github.com/coreybutler/nvm-windows/releases
       * `nvm-setup.zip` 파일 추천
 
-cf) npm(node package manager) ? Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 cf) java의 maven
+cf) npm(node package manager) ? Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 (java의 maven 과 유사한 소프트웨어)
 * https://cli.vuejs.org/
 
 
