@@ -27,7 +27,7 @@ API Link : https://kr.vuejs.org/v2/api/#vm-data
 **Node version manager** 를 이용하여 다운받는 것을 ㅊㅊ
 * node.js 다운로드
     * OSX : https://github.com/nvm-sh/nvm
-    `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash`
+      * `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash`
     * windows : https://github.com/coreybutler/nvm-windows/releases
 
 cf) npm(node package manager) ? Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 cf) java의 maven
