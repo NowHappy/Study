@@ -58,7 +58,9 @@ https://github.com/libuv/libuv
 이벤트 루프를 기반으로 논블로킹 비동기 I/O를 지원하기때문에 IO intensive 한 앱 개발엔 추천!(디스크나 네트워크 Access가 많은 앱 / 서버가 많지 않아도 반응성 유지에 좋음)
 하지만 노드는 싱글 쓰레드 기반이기 때문에 쓰레드가 사용중이면 나머지 작업들은 기다려야 함. 그래서 비디오 인코딩이나 이미지 수정과 같은 CPU insentive 한 앱 (CPU가 처리해야하는 계산이 많고 file system이나 network 작업은 적은)에는 비추천!
 
-### cf) npm(node package manager) ? Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 (java의 maven과 유사한 소프트웨어)
+### cf) npm(node package manager) ? 
+* Node.js에서 사용할 수 있는 모듈들을 패키지화하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command line interface)를 제공 (java의 maven과 유사한 소프트웨어)
+* Node.js프로젝트의 2대 BDFL이었던 아이작 슐레터가 오픈소스 프로젝트로 시작(참조 : https://terms.naver.com/entry.nhn?docId=3580502&cid=59088&categoryId=59096)
 * https://cli.vuejs.org/
 
 
